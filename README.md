@@ -14,7 +14,7 @@ Soy un desarrollador apasionado por la metodología Agile. Aprecio la eficacia y
 
 ## 📚 Descripción
 
-### 1. Principios del Manifiesto Agile <a name="agile"></a>
+### 1. Agile <a name="agile"></a>
 ![image](https://github.com/JovannyCO/UTILS/assets/59772160/218dde5c-b8bc-4928-860b-814746a25bd6)
 
 Como parte de mi enfoque Agile, me rijo por los siguientes 12 principios:
