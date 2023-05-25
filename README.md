@@ -24,17 +24,17 @@ Como parte de mi enfoque Agile, me rijo por los siguientes principios:
 
 💡 Estoy abierto a cambios, incluso si estos llegan tarde en el desarrollo. Los procesos Agile aprovechan el cambio para brindar una ventaja competitiva al cliente.
 
-🚀 Entrego software funcionando frecuentemente, con preferencia a la menor escala de tiempo posible (cada 2 semanas).
+🚀 Hago entregas de parte del software funcionando cada 2 semanas.
 
 🤝 Los responsables de negocio y los desarrolladores trabajamos juntos a diario en todo el proyecto.
 
 🌱 Construyo proyectos alrededor de personas motivados. Proporciono el entorno y el apoyo que necesitan y confío en ellos para hacer el trabajo.
 
-💬 La conversación cara a cara es el método más eficiente y efectivo de transmitir información dentro de un equipo de desarrollo [Mi cámara y atención siempre está a la vista en Meet cuando trabajo en remoto].
+💬 La conversación cara a cara es el método más eficiente y efectivo de transmitir información dentro de un equipo de desarrollo [En remoto, mi cámara y atención siempre está a la vista en Meet].
 
 🏅 El software funcionando es la principal medida de progreso.
 
-⏩ Los procesos Agile promueven el desarrollo sostenible. Los patrocinadores, desarrolladores y usuarios deben mantener un ritmo constante de forma indefinida.
+⏩ Los procesos Agile promueven el desarrollo sostenible. Los inversionistas, desarrolladores y usuarios mantenemos un ritmo constante.
 
 🔍 La atención continua a la excelencia técnica y al buen diseño mejora la agilidad.
 
@@ -44,6 +44,7 @@ Como parte de mi enfoque Agile, me rijo por los siguientes principios:
 
 🔄 En intervalos regulares, el equipo reflexiona sobre cómo ser más eficaz y ajusta su comportamiento en consecuencia.
 
+_____
 
 
 ### 2. Cambiando de tema, utilidad: generar-clave-gpg.sh
