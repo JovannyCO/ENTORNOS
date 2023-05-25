@@ -24,7 +24,7 @@ Como parte de mi enfoque Agile, me rijo por los siguientes principios:
 
 💡 Estoy abierto a cambios, incluso si estos llegan tarde en el desarrollo. Los procesos Agile aprovechan el cambio para brindar una ventaja competitiva al cliente.
 
-🚀 Entrego software funcionando frecuentemente, con preferencia a la menor escala de tiempo posible (cada 2 semanas).
+🚀 Entrego software frecuentemente, con preferencia a la menor escala de tiempo posible (cada 2 o 3 semanas).
 
 🤝 Los responsables de negocio y los desarrolladores trabajamos juntos a diario en todo el proyecto.
 
