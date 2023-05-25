@@ -4,7 +4,7 @@ Me encanta desarrollar software, y en particular, disfruto trabajando con Node, 
 
 ## 🚀 Sobre mí
 
-Soy un desarrollador apasionado por la metodología Agile. Aprecio la eficacia y la eficiencia en mis proyectos, y siempre busco la simplicidad y la excelencia técnica.
+Soy un desarrollador de software apasionado por la metodología Agile. Aprecio la eficacia y la eficiencia en mis proyectos; siempre busco la simplicidad y la excelencia técnica.
 
 ## 💼 Contenido del repositorio
 
