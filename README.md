@@ -9,6 +9,7 @@ Soy un desarrollador apasionado por la metodología Agile. Aprecio la eficacia y
 ## 💼 Contenido del repositorio
 
 1. [Mi compromiso Agile](#agile) o ver [Casos de uso](AGILE/principios-manifiesto-agil.md)
+
 2. [generar-clave-gpg.sh](GPG/generar-clave-gpg.sh)
 3. [actualizar-clave-gpg.sh](GPG/actualizar-clave-gpg.sh)
 
@@ -45,6 +46,17 @@ Como parte de mi enfoque Agile, me rijo por los siguientes 12 principios:
 
 
 ### 2. Cambiando de tema, utilidad: generar-clave-gpg.sh
+
+Como desarrollador, utilizo las claves GPG por varias razones importantes:
+
+**Firma de commits y etiquetas:** La firma de commits y etiquetas con GPG permite a las personas que revisan mi código confirmar que los cambios realmente provienen de mí y que no han sido alterados por terceros. Esta autenticación añade una capa adicional de seguridad y confianza en mi trabajo.
+
+**Cifrado y descifrado:** Con las claves GPG, puedo cifrar información sensible de tal manera que sólo los destinatarios previstos (aquellos que poseen la clave privada correspondiente) puedan descifrarla. Esto es útil para mantener la privacidad y seguridad de los datos.
+
+**Autenticación:** Las claves GPG también se pueden usar para probar mi identidad. Si alguien recibe un mensaje cifrado con mi clave pública, y puede descifrarlo con la clave privada correspondiente, puede estar seguro de que el mensaje proviene de mí.
+
+En resumen, **uso las claves GPG para garantizar la integridad, seguridad y autenticidad de mi trabajo como desarrollador de software.**
+
 
 Este script te guía para generar una clave GPG con una fecha de caducidad de 30 días. También configura Git para firmar tus commits con la nueva clave y `gpg-agent` para recordar la contraseña de tu clave durante 30 días. Además, exporta la clave pública para que puedas agregarla a tu cuenta de GitHub.
 
