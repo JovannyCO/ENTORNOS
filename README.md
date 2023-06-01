@@ -10,7 +10,7 @@ Soy un desarrollador de software apasionado por la metodología Agile. Aprecio l
 
 1. [Mi compromiso Agile](#agile) o ver [Casos de uso](AGILE/principios-manifiesto-agil.md)
 
-Firmo mis commits...
+Utilidades...
 2. [generar-clave-gpg.sh](GPG/generar-clave-gpg.sh)
 3. [actualizar-clave-gpg.sh](GPG/actualizar-clave-gpg.sh)
 
