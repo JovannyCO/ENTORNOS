@@ -25,11 +25,11 @@ Como parte de mi enfoque Agile, me rijo por los siguientes principios:
 
 💡 Estoy abierto a cambios, incluso si estos llegan tarde en el desarrollo. Los procesos Agile aprovechan el cambio para brindar una ventaja competitiva al cliente.
 
-🚀 Hago entregas de parte del software funcionando, minimo cada 2 semanas, ahora con IA cada semana.
+🚀 Hago entregas de parte del software funcionando, minimo cada 2 semanas, ahora con IA: cada semana.
 
-🤝 Los responsables de negocio y los desarrolladores trabajamos juntos a diario en todo el proyecto.
+🤝 Trabajo junto a los responsables de negocio a diario en todo el proyecto.
 
-🌱 Construyo proyectos alrededor de personas motivados. Proporciono el entorno y el apoyo que necesitan y confío en ellos para hacer el trabajo.
+🌱 Construyo proyectos alrededor de personas motivadas, en especial con aprendices SENA. Proporciono el entorno y confío en ellos para hacer el trabajo.
 
 💬 La conversación cara a cara es el método más eficiente y efectivo de transmitir información dentro de un equipo de desarrollo [En remoto, mi cámara y atención siempre está a la vista en Meet].
 
