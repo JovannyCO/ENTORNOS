@@ -79,6 +79,6 @@ Ejecuta `chmod +x actualizar-clave-gpg.sh` y luego `./actualizar-clave-gpg.sh`
 
 Después de ejecutarlo, la fecha de caducidad de tu clave GPG se habrá actualizado a 30 días a partir de hoy.
 
-# 🎉 ¡Y eso es todo!
+# 🎉 ¡Y eso es todo por ahora!
 
-Ahora tienes las herramientas necesarias para manejar tus claves GPG en Ubuntu y conoces los principios que rigen mi trabajo como desarrollador de software. ¡Disfruta!
+Te he compartido herramientas necesarias para manejar tus claves GPG en Ubuntu y te mostrado los principios que rigen mi trabajo como desarrollador de software. ¡Hasta pronto! 👋
