@@ -10,6 +10,7 @@ Soy un desarrollador de software apasionado por la metodología Agile. Aprecio l
 
 1. [Mi compromiso Agile](#agile) o ver [Casos de uso](AGILE/principios-manifiesto-agil.md)
 
+Firmo mis commits...
 2. [generar-clave-gpg.sh](GPG/generar-clave-gpg.sh)
 3. [actualizar-clave-gpg.sh](GPG/actualizar-clave-gpg.sh)
 
@@ -24,7 +25,7 @@ Como parte de mi enfoque Agile, me rijo por los siguientes principios:
 
 💡 Estoy abierto a cambios, incluso si estos llegan tarde en el desarrollo. Los procesos Agile aprovechan el cambio para brindar una ventaja competitiva al cliente.
 
-🚀 Hago entregas de parte del software funcionando cada 2 semanas.
+🚀 Hago entregas de parte del software funcionando, minimo cada 2 semanas, ahora con IA cada semana.
 
 🤝 Los responsables de negocio y los desarrolladores trabajamos juntos a diario en todo el proyecto.
 
