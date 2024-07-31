@@ -37,74 +37,142 @@ En COL.marketing, estos diagramas son más que simples herramientas de visualiza
 Esta guía es nuestro recurso go-to para aprovechar el poder de la visualización en el marketing digital. Invitamos a todo nuestro equipo a explorar cada sección en detalle y a incorporar estos diagramas en su trabajo diario. Juntos, continuaremos impulsando nuestro crecimiento, mejorando nuestros servicios y, lo más importante, generando resultados excepcionales para nuestros clientes.
 
 
-# Diagramas de Mermaid Faltantes
+# Diagramas y Gráficos Adicionales para Marketing Digital
 
-A continuación, presentamos una tabla con los diagramas de Mermaid que no hemos tratado en nuestra guía actual, junto con un breve ejemplo de cada uno:
+En COL.marketing, siempre buscamos formas innovadoras de visualizar y analizar datos. Aquí presentamos una lista ampliada de diagramas y gráficos que aún no hemos tratado en nuestra guía principal, pero que pueden ser valiosos para nuestro trabajo en marketing digital:
 
-| Tipo de Diagrama | Descripción | Ejemplo |
-|-------------------|-------------|---------|
-| Flowchart (LR) | Diagrama de flujo de izquierda a derecha | ```mermaid
+| Tipo de Diagrama | Descripción | Uso en Marketing Digital |
+|-------------------|-------------|--------------------------|
+| Flowchart (LR) | Diagrama de flujo de izquierda a derecha | Mapeo de customer journey |
+| Gitgraph | Muestra el historial de commits de Git | Seguimiento de versiones en proyectos de desarrollo web |
+| Timeline | Muestra eventos en una línea de tiempo | Planificación de campañas a largo plazo |
+| Mindmap | Representa ideas o conceptos relacionados | Brainstorming de estrategias de contenido |
+| Quadrant Chart | Divide datos en cuatro cuadrantes | Análisis de rendimiento de campañas |
+| C4 Diagram | Muestra la arquitectura de software | Diseño de sistemas de análisis de marketing |
+| Sankey Diagram | Muestra flujos y sus cantidades | Visualización de conversiones en funnel de ventas |
+| Radar Chart | Compara múltiples variables | Evaluación de KPIs de campañas |
+| Heatmap | Muestra datos en una matriz de colores | Análisis de engagement en redes sociales |
+| Bubble Chart | Compara tres dimensiones de datos | Comparación de productos por ventas, margen y popularidad |
+| Treemap | Muestra datos jerárquicos como rectángulos anidados | Visualización de estructura de gastos en marketing |
+| Network Graph | Muestra conexiones entre entidades | Mapeo de relaciones entre influencers y marcas |
+
+A continuación, presentamos ejemplos de cada tipo de diagrama en el contexto del marketing digital:
+
+1. Flowchart (LR) - Customer Journey
+
+```mermaid
 graph LR
-    A[Inicio] --> B{¿Cliente existente?}
-    B -->|Sí| C[Ofrecer upgrade]
-    B -->|No| D[Proceso de registro]
-    C --> E[Fin]
-    D --> E
-``` |
-| Gitgraph | Muestra el historial de commits de Git | ```mermaid
+    A[Visita Sitio Web] --> B{¿Primera visita?}
+    B -->|Sí| C[Pop-up de bienvenida]
+    B -->|No| D[Contenido personalizado]
+    C --> E[Oferta de suscripción]
+    D --> F[Recomendación de producto]
+    E --> G[Email de nurturing]
+    F --> H[Compra]
+    G --> H
+    H --> I[Programa de fidelización]
+```
+
+2. Gitgraph - Desarrollo de Sitio Web
+
+```mermaid
 gitGraph
-    commit
-    commit
-    branch develop
-    checkout develop
-    commit
-    commit
+    commit id: "Diseño inicial"
+    commit id: "Implementación SEO"
+    branch feature/blog
+    checkout feature/blog
+    commit id: "Estructura del blog"
+    commit id: "Integración CMS"
     checkout main
-    merge develop
-    commit
-    commit
-``` |
-| Timeline | Muestra eventos en una línea de tiempo | ```mermaid
+    merge feature/blog
+    commit id: "Optimización de velocidad"
+    commit id: "Lanzamiento v1.0"
+```
+
+3. Timeline - Planificación de Campaña Anual
+
+```mermaid
 timeline
-    title Evolución de Nuestra Estrategia SEO
-    2021 : Optimización On-Page
-    2022 : Construcción de Backlinks
-    2023 : Contenido Evergreen
-    2024 : Optimización para Voz
-``` |
-| Mindmap | Representa ideas o conceptos relacionados | ```mermaid
+    title Plan de Marketing Digital 2024
+    section Q1 2024
+        Enero : Lanzamiento de nueva web
+        Febrero : Campaña de email marketing
+        Marzo : Optimización SEO
+    section Q2 2024
+        Abril : Campaña de redes sociales
+        Mayo : Webinar de producto
+        Junio : Análisis de medio año
+    section Q3 2024
+        Julio : Campaña de verano
+        Agosto : Actualización de contenidos
+        Septiembre : Lanzamiento de app móvil
+    section Q4 2024
+        Octubre : Campaña de Black Friday
+        Noviembre : Optimización de conversiones
+        Diciembre : Planificación 2025
+```
+
+4. Mindmap - Estrategia de Content Marketing
+
+```mermaid
 mindmap
-    root((Marketing Digital))
-        SEO
-        PPC
-        Social Media
-        Email Marketing
-        Content Marketing
-``` |
-| Quadrant Chart | Divide datos en cuatro cuadrantes | ```mermaid
+    root((Content Marketing))
+        Blogs
+            SEO-optimized
+            Guías how-to
+            Casos de estudio
+        Videos
+            Tutoriales
+            Testimonios
+            Behind-the-scenes
+        Podcasts
+            Entrevistas con expertos
+            Noticias de la industria
+        Infografías
+            Estadísticas clave
+            Procesos visualizados
+        Ebooks
+            Guías completas
+            Reportes de investigación
+        Webinars
+            Demostraciones de productos
+            Paneles de discusión
+```
+
+5. Quadrant Chart - Análisis de Campañas PPC
+
+```mermaid
 quadrantChart
-    title Análisis de Campañas de Marketing
-    x-axis Bajo Costo --> Alto Costo
-    y-axis Bajo Rendimiento --> Alto Rendimiento
+    title Análisis de Campañas PPC
+    x-axis Bajo CPC --> Alto CPC
+    y-axis Baja CTR --> Alta CTR
     quadrant-1 Optimizar
-    quadrant-2 Mantener
-    quadrant-3 Reevaluar
-    quadrant-4 Invertir
-    Campaign A: [0.3, 0.6]
-    Campaign B: [0.45, 0.23]
-    Campaign C: [0.57, 0.69]
-    Campaign D: [0.78, 0.34]
-``` |
-| C4 Diagram | Muestra la arquitectura de software | ```mermaid
+    quadrant-2 Escalar
+    quadrant-3 Revisar
+    quadrant-4 Mantener
+    Campaña A: [0.3, 0.6]
+    Campaña B: [0.45, 0.23]
+    Campaña C: [0.57, 0.69]
+    Campaña D: [0.78, 0.34]
+    Campaña E: [0.35, 0.78]
+```
+
+6. C4 Diagram - Sistema de Análisis de Marketing
+
+```mermaid
 C4Context
     title Sistema de Análisis de Marketing
-    System_Boundary(b0, "Sistema de Análisis") {
-        Person(customerA, "Marketero", "Usa el sistema para análisis")
-        System(SystemAA, "Aplicación Web", "Permite a los usuarios ver análisis")
-        SystemDb(SystemA, "Base de Datos", "Almacena datos de campañas")
+    System_Boundary(b0, "Plataforma de Análisis") {
+        Person(marketeer, "Marketero", "Analiza datos de campañas")
+        System(WebApp, "Aplicación Web", "Dashboard interactivo")
+        SystemDb(Database, "Base de Datos", "Almacena métricas de campañas")
+        System_Ext(GoogleAds, "Google Ads API", "Fuente de datos PPC")
+        System_Ext(FB, "Facebook Ads API", "Fuente de datos de redes sociales")
     }
-    BiRel(customerA, SystemAA, "Usa")
-    Rel(SystemAA, SystemA, "Lee/Escribe")
-``` |
+    BiRel(marketeer, WebApp, "Interactúa con")
+    Rel(WebApp, Database, "Lee/Escribe datos")
+    Rel(WebApp, GoogleAds, "Obtiene métricas")
+    Rel(WebApp, FB, "Obtiene métricas")
+```
 
-Estos diagramas adicionales de Mermaid pueden ser muy útiles en diversos aspectos de nuestro trabajo en marketing digital. Podríamos considerar incorporarlos en futuras versiones de nuestra guía para ofrecer una visión aún más completa de las herramientas de visualización disponibles.
+Estos diagramas adicionales nos ofrecen nuevas formas de visualizar y analizar nuestros datos y procesos en marketing digital. Cada uno tiene sus propias fortalezas y puede ser especialmente útil en diferentes aspectos de nuestro trabajo.
