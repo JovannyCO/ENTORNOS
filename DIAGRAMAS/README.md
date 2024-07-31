@@ -143,7 +143,7 @@ mindmap
 
 ```mermaid
 quadrantChart
-    title "Análisis de Campañas PPC"
+    title Análisis de Campañas PPC
     x-axis Bajo CPC --> Alto CPC
     y-axis Baja CTR --> Alta CTR
     quadrant-1 Optimizar
