@@ -150,11 +150,11 @@ quadrantChart
     quadrant-2 Escalar
     quadrant-3 Revisar
     quadrant-4 Mantener
-    Campaña A: [0.3, 0.6]
-    Campaña B: [0.45, 0.23]
-    Campaña C: [0.57, 0.69]
-    Campaña D: [0.78, 0.34]
-    Campaña E: [0.35, 0.78]
+    "Campaña A": [0.3, 0.6]
+    "Campaña B": [0.45, 0.23]
+    "Campaña C": [0.57, 0.69]
+    "Campaña D": [0.78, 0.34]
+    "Campaña E": [0.35, 0.78]
 ```
 
 6. C4 Diagram - Sistema de Análisis de Marketing
