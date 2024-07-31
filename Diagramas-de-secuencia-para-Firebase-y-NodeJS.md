@@ -6,6 +6,30 @@ En COL.marketing, utilizamos Firebase y NodeJS en muchos de nuestros proyectos d
 
 Aquí tenemos un diagrama que muestra nuestro proceso de autenticación de usuario utilizando Firebase, adaptado a las prácticas de seguridad colombianas:
 
+```
+sequenceDiagram
+    participant C as Cliente
+    participant B as Backend (NodeJS)
+    participant F as Firebase Auth
+    participant D as Base de Datos
+
+    C->>B: Solicitud de acceso (Cédula/NIT)
+    B->>D: Verificar Cédula/NIT
+    D-->>B: Confirmar existencia
+    B->>F: Generar enlace de acceso
+    F-->>B: Enlace generado
+    B->>C: Enviar enlace al correo registrado
+    C->>F: Acceder mediante enlace
+    F->>F: Verificar enlace
+    F-->>C: Token de autenticación
+    C->>B: Solicitud con token
+    B->>F: Verificar token
+    F-->>B: Token válido
+    B->>D: Obtener datos del usuario
+    D-->>B: Datos del usuario
+    B-->>C: Respuesta con datos del usuario
+```
+
 ```mermaid
 sequenceDiagram
     participant C as Cliente
@@ -44,6 +68,27 @@ Este diagrama ilustra nuestro proceso de autenticación segura:
 
 Ahora, veamos cómo representamos el proceso de carga de archivos a Firebase Storage:
 
+```
+sequenceDiagram
+    participant C as Cliente
+    participant B as Backend (NodeJS)
+    participant FS as Firebase Storage
+    participant FB as Firebase Database
+
+    C->>B: Solicitud de URL para carga
+    B->>FS: Generar URL firmada
+    FS-->>B: URL firmada
+    B-->>C: URL para carga directa
+    C->>FS: Cargar archivo
+    FS-->>C: Confirmación de carga
+    C->>B: Notificar carga exitosa
+    B->>FS: Obtener metadatos del archivo
+    FS-->>B: Metadatos del archivo
+    B->>FB: Guardar referencia del archivo
+    FB-->>B: Confirmación
+    B-->>C: Proceso completado
+```
+
 ```mermaid
 sequenceDiagram
     participant C as Cliente
@@ -76,6 +121,21 @@ Este diagrama muestra el proceso de carga de archivos:
 ## Ejemplo 3: Sincronización en tiempo real con Firebase Realtime Database
 
 Veamos cómo representamos la sincronización en tiempo real de datos:
+
+```
+sequenceDiagram
+    participant C as Cliente
+    participant FB as Firebase Realtime DB
+    participant B as Backend (NodeJS)
+
+    C->>FB: Suscribirse a cambios
+    FB-->>C: Confirmación de suscripción
+    B->>FB: Actualizar datos
+    FB-->>C: Notificación de cambios
+    C->>FB: Solicitar datos actualizados
+    FB-->>C: Enviar datos actualizados
+    C->>C: Actualizar UI
+```
 
 ```mermaid
 sequenceDiagram
