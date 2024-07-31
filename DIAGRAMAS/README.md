@@ -35,3 +35,76 @@ En COL.marketing, estos diagramas son más que simples herramientas de visualiza
 - Un compromiso con la mejora continua de nuestras prácticas.
 
 Esta guía es nuestro recurso go-to para aprovechar el poder de la visualización en el marketing digital. Invitamos a todo nuestro equipo a explorar cada sección en detalle y a incorporar estos diagramas en su trabajo diario. Juntos, continuaremos impulsando nuestro crecimiento, mejorando nuestros servicios y, lo más importante, generando resultados excepcionales para nuestros clientes.
+
+
+# Diagramas de Mermaid Faltantes
+
+A continuación, presentamos una tabla con los diagramas de Mermaid que no hemos tratado en nuestra guía actual, junto con un breve ejemplo de cada uno:
+
+| Tipo de Diagrama | Descripción | Ejemplo |
+|-------------------|-------------|---------|
+| Flowchart (LR) | Diagrama de flujo de izquierda a derecha | ```mermaid
+graph LR
+    A[Inicio] --> B{¿Cliente existente?}
+    B -->|Sí| C[Ofrecer upgrade]
+    B -->|No| D[Proceso de registro]
+    C --> E[Fin]
+    D --> E
+``` |
+| Gitgraph | Muestra el historial de commits de Git | ```mermaid
+gitGraph
+    commit
+    commit
+    branch develop
+    checkout develop
+    commit
+    commit
+    checkout main
+    merge develop
+    commit
+    commit
+``` |
+| Timeline | Muestra eventos en una línea de tiempo | ```mermaid
+timeline
+    title Evolución de Nuestra Estrategia SEO
+    2021 : Optimización On-Page
+    2022 : Construcción de Backlinks
+    2023 : Contenido Evergreen
+    2024 : Optimización para Voz
+``` |
+| Mindmap | Representa ideas o conceptos relacionados | ```mermaid
+mindmap
+    root((Marketing Digital))
+        SEO
+        PPC
+        Social Media
+        Email Marketing
+        Content Marketing
+``` |
+| Quadrant Chart | Divide datos en cuatro cuadrantes | ```mermaid
+quadrantChart
+    title Análisis de Campañas de Marketing
+    x-axis Bajo Costo --> Alto Costo
+    y-axis Bajo Rendimiento --> Alto Rendimiento
+    quadrant-1 Optimizar
+    quadrant-2 Mantener
+    quadrant-3 Reevaluar
+    quadrant-4 Invertir
+    Campaign A: [0.3, 0.6]
+    Campaign B: [0.45, 0.23]
+    Campaign C: [0.57, 0.69]
+    Campaign D: [0.78, 0.34]
+``` |
+| C4 Diagram | Muestra la arquitectura de software | ```mermaid
+C4Context
+    title Sistema de Análisis de Marketing
+    System_Boundary(b0, "Sistema de Análisis") {
+        Person(customerA, "Marketero", "Usa el sistema para análisis")
+        System(SystemAA, "Aplicación Web", "Permite a los usuarios ver análisis")
+        SystemDb(SystemA, "Base de Datos", "Almacena datos de campañas")
+    }
+    BiRel(customerA, SystemAA, "Usa")
+    Rel(SystemAA, SystemA, "Lee/Escribe")
+``` |
+
+Estos diagramas adicionales de Mermaid pueden ser muy útiles en diversos aspectos de nuestro trabajo en marketing digital. Podríamos considerar incorporarlos en futuras versiones de nuestra guía para ofrecer una visión aún más completa de las herramientas de visualización disponibles.
